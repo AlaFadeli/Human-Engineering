@@ -1,0 +1,17 @@
+defaults:
+  - meta: config.yaml
+  - default_styling: config.yaml
+  - _self_
+
+version: 0.0.3
+
+slides:
+
+  - title:
+    number: "0.0"
+    content:
+      - type: items
+        bullets:
+
+        distance: 6
+        anchor: "{{ title }}"       
