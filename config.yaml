@@ -7,11 +7,14 @@ version: 0.0.3
 
 slides:
 
-  - title:
+  - title: 
     number: "0.0"
     content:
       - type: items
         bullets:
-
+        - 01 
+        - 02 
+        - 03
+        - 04
         distance: 6
         anchor: "{{ title }}"       
