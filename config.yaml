@@ -12,9 +12,9 @@ slides:
     content:
       - type: items
         bullets:
-        - 01 
-        - 02 
-        - 03
-        - 04
-        distance: 6
+        -  
+        -  
+        - 
+        - 
+        distance: 5
         anchor: "{{ title }}"       
