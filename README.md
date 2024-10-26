@@ -1,4 +1,4 @@
-# J.J Thomson's Cathode Ray Experiment 
+# Black Bodies Spectrum 
 
 To produce the presentation:
 - Install [nvm](https://github.com/nvm-sh/nvm)

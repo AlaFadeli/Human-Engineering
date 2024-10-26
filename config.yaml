@@ -13,19 +13,24 @@ slides:
     content:
       - type: items
         bullets:
-          - Cathode Ray Tube Experiment
-        distance: 4
+          -         distance: 4
         anchor: "{{ title }}"
 
-  - title: Cathode Ray Tube Experiment
+
+
+  - title:  
     number: "1.0"
-    hook:
-      name: cathode-ray
-      filename: hooks/cathode-ray.py
-      functions: cathode_ray_step
-      tube_color: BLUE_B
-      bulb_color: GREEN
-      default_opacity: 0.7
-      material_colors:
-        - ORANGE
-        - GRAY
+    content:
+      - type: items 
+        bullets:
+          -             - 
+          - 
+          -
+          -
+  - title :    
+    number: "1.1"
+    content:
+      - type: text
+        text: ""
+
+
