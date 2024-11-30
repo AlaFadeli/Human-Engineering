@@ -1,12 +1,11 @@
-title: "Black bodies spectrum"
+title: "Money And Financing of Economics Activity"
 footer:
-  text: Preparatory Class 1, Chemistry 1
-  bold:
-    - Chemistry 1
-author: Fadeli Ala Eddine, Remaidia Mouhammed Nadim 
-time: Oct. 2024
+  text: Preparatory Class 1, Economics 1
+author: G7B 
+time: Dec. 2024
 logo:
   image: logoBlanc-300x262.png 
-  scale: 1.0
+  scale: 0.6
+  shift: DOWN*2
 base_url: https://alafadeli.github.io/presentation-cathode
 thanks: "THANK YOU!"
