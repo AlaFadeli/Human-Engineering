@@ -9,305 +9,316 @@ scene: 2D
 
 slides:
 
-  - title: We'll look at...
-    number: "   "
-    content:
-      - type: items
-        bullets:
-          - "Money and Financing : Introduction"
-          - "The Evolution of Money"
-          - "Functions of Money in the Economy"
-          - "International Monetary Systems"
-          - "Monetary Policies : The impcat on the Economy"
-          - "Regulations and Supervision of Financial Institutions"
-          - "Role of Central Banks"
-          - "Financial Innovations and Digital Currencies"
-          - "Impact of Financial Policies on Economic Development"
-          - "Money and Financing : Conclusion"
-        distance: 3
-        anchor: "{{ title }}"
+#  - title: We'll look at...
+#    number: "   "
+#    content:
+#      - type: items
+#        bullets:
+#          - "Money and Financing : Introduction"
+#          - "The Evolution of Money"
+#          - "Functions of Money in the Economy"
+#          - "International Monetary Systems"
+#          - "Monetary Policies : The impcat on the Economy"
+#          - "Regulations and Supervision of Financial Institutions"
+#          - "Role of Central Banks"
+#          - "Financial Innovations and Digital Currencies"
+#          - "Impact of Financial Policies on Economic Development"
+#          - "Money and Financing : Conclusion"
+#        distance: 3
+#        anchor: "{{ title }}"
 #  - title: "Money and Financing : Introduction"
 #    number: "1.0"
 #    content:  
 #      - type:
   
-  - title: The Evolution of Money
-    number: "2.0"
-    content:
-      - type: text
-        text: -Barter System
-        next_to:
-          target: "{{ title }}"
-          dir: 2*DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT  
-        color: self.main_color
-        font_size: "self.m_size"
-        no_next_slide: false
-      - type: text
-        text: "People exchanged goods and services directly"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
-        no_next_slide: false
-      - type: text
-        text: "No common measure of value, leading to difficulties"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
-      - type: text
-        text: -Commodity Money
-        next_to:
-          target: "{{ last }}"
-          dir: 2*DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT  
-        color: self.main_color
-        font_size: "self.m_size"
-        no_next_slide: false
-      - type: text
-        text: "Items like seashells, cacao, and cattle were used as currency"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
-        no_next_slide: false
-      - type: text
-        text: "Value derived from their utility and demand"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
-      - type: text
-        text: -Metallic Money
-        next_to:
-          target: "{{ last }}"
-          dir: 2*DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT  
-        color: self.main_color
-        font_size: "self.m_size"
-        no_next_slide: false
-      - type: text
-        text: "Metal coins replaced commodities"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
-        no_next_slide: false
-      - type: text
-        text: "Easy to transport, store, and divide"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
-      - type: reset
-      - type: text
-        text: -Paper Money
-        next_to:
-          target: "{{ last }}"
-          dir: 2*DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT  
-        color: self.main_color
-        font_size: "self.m_size"
-        no_next_slide: false
-      - type: text
-        text: "Paper currency emerged due to high cost of metals"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
-        no_next_slide: false
-      - type: text
-        text: "Cheaper, lighter, and easier to carry"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
-      - type: text
-        text: -Plastic Money (Credit Cards)
-        next_to:
-          target: "{{ last }}"
-          dir: 2*DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT  
-        color: self.main_color
-        font_size: "self.m_size"
-        no_next_slide: false
-      - type: text
-        text: "Plastic money emerged for easier transactions"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
-        no_next_slide: false
-      - type: text
-        text: "Credit cards and digital payments became mainstream"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
-      - type: text
-        text: -Digital Money
-        next_to:
-          target: "{{ last }}"
-          dir: 2*DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT  
-        color: self.main_color
-        font_size: "self.m_size"
-        no_next_slide: false
-      - type: text
-        text: "Cryptocurrencies like Bitcoin transformed the financial landscape"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
-        no_next_slide: false
-      - type: text
-        text: "Digital money is secure, convenient, and borderless"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT
-        font_size: "self.s_size"
+#  - title: The Evolution of Money
+#    number: "2.0"
+#    content:
+#      - type: text
+#        text: -Barter System
+#        next_to:
+#          target: "{{ title }}"
+#          dir: 2*DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT  
+#        color: self.main_color
+#        font_size: "self.m_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "People exchanged goods and services directly"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "No common measure of value, leading to difficulties"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#      - type: text
+#        text: -Commodity Money
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT  
+#        color: self.main_color
+#        font_size: "self.m_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "Items like seashells, cacao, and cattle were used as currency"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "Value derived from their utility and demand"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#      - type: text
+#        text: -Metallic Money
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT  
+#        color: self.main_color
+#        font_size: "self.m_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "Metal coins replaced commodities"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "Easy to transport, store, and divide"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#      - type: reset
+#      - type: text
+#        text: -Paper Money
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT  
+#        color: self.main_color
+#        font_size: "self.m_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "Paper currency emerged due to high cost of metals"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "Cheaper, lighter, and easier to carry"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#      - type: text
+#        text: -Plastic Money (Credit Cards)
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT  
+#        color: self.main_color
+#        font_size: "self.m_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "Plastic money emerged for easier transactions"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "Credit cards and digital payments became mainstream"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#      - type: text
+#        text: -Digital Money
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT  
+#        color: self.main_color
+#        font_size: "self.m_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "Cryptocurrencies like Bitcoin transformed the financial landscape"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#        no_next_slide: false
+#      - type: text
+#        text: "Digital money is secure, convenient, and borderless"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT
+#        font_size: "self.s_size"
+#     
+#
+#  - title: Functions of money in the Economy 
+#    number: "3.0"
+#    content:
+#      - type: text
+#        text: What are the main functions of money in the economic system ?
+#        next_to:
+#          target: "{{ title }}"
+#          dir: 2*DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir : LEFT  
+#        font_size: "self.m_size"
+#        
+#      - type: text  
+#        text: -Medium of Exchange
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir : LEFT  
+#        color: self.main_color
+#        font_size: "self.s_size"
+#      - type: text  
+#        text: -Unit of Account
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir : LEFT  
+#        color: self.main_color
+#        font_size: "self.s_size"
+#      - type: text  
+#        text: -Store of Value
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir : LEFT  
+#        color: self.main_color
+#        font_size: "self.s_size"
+#      
+#      - type: text  
+#        text: -Standard of Deferred Payment
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir : LEFT  
+#        color: self.main_color
+#        font_size: "self.s_size"
+#        
+#  - title:  Medium of Exchange
+#    number: "3.1"
+#    content:
+#      - type: text
+#        text: Money acts as an intermediary in trade ... 
+#        next_to: 
+#          target: "{{ title }}"
+#          dir : DOWN
+#        align_to:
+#          target: "{{ title }}"
+#          dir: LEFT  
+#        font_size: "self.m_size"
+#      - type: text
+#        text: If you want to buy a sandwitch 
+#        align_to:
+#          target: "{{ title }}"
+#          dir : 2*RIGHT + 2* DOWN
+#          font_size: "self.vs_size"
+#  - title: Evolution
+#    number: "4.0"
+#    hook:
+#    name: money_evolution
+#    filename: hooks/money_evolution.py
+#    functions: money_timeline_step
+#    money_types:
+#      - "Commodity Money"
+#      - "Fiat Money"
+#      - "Cryptocurrency"
+#    num_samples: 5
+#    n_iters: 10
+#    benchmark:
+#      type: text
+#      text: "Timeline of the evolution of money types"
+#      next_to:
+#        target: "{{ title }}"
+#        dir: 2*DOWN
+#    align_to:
+#      target: "{{ title }}"
+#      dir: LEFT   
 
-
-  - title: Functions of money in the Economy 
-    number: "3.0"
-    content:
-      - type: text
-        text: What are the main functions of money in the economic system ?
-        next_to:
-          target: "{{ title }}"
-          dir: 2*DOWN
-        align_to:
-          target: "{{ title }}"
-          dir : LEFT  
-        font_size: "self.m_size"
-        
-      - type: text  
-        text: Medium of Exchange
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir : LEFT  
-        color: self.main_color
-        font_size: "self.s_size"
-      - type: text  
-        text: Unit of Account
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir : LEFT  
-        color: self.main_color
-        font_size: "self.s_size"
-      - type: text  
-        text: Store of Value
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir : LEFT  
-        color: self.main_color
-        font_size: "self.s_size"
-      
-      - type: text  
-        text: Standard of Deferred Payment
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir : LEFT  
-        color: self.main_color
-        font_size: "self.s_size"
-        
-  - title:  Medium of Exchange
-    number: "3.1"
-    content:
-      - type: text
-        text: Money acts as an intermediary in trade ... 
-        next_to: 
-          target: "{{ title }}"
-          dir : DOWN
-        align_to:
-          target: "{{ title }}"
-          dir: LEFT  
-        font_size: "self.m_size"
-      - type: text
-        text: If you want to buy a sandwitch 
-        align_to:
-          target: "{{ title }}"
-          dir : 2*RIGHT + 2* DOWN
-          font_size: "self.vs_size"
   - title: Evolution
-    number: "4.0"
+    number: "5.0"
     hook:
-    name: money_evolution
-    filename: hooks/money_evolution.py
-    functions: money_timeline_step
-    money_types:
-      - "Commodity Money"
-      - "Fiat Money"
-      - "Cryptocurrency"
-    num_samples: 5
-    n_iters: 10
-    benchmark:
-      type: text
-      text: "Timeline of the evolution of money types"
-      next_to:
-        target: "{{ title }}"
-        dir: 2*DOWN
-    align_to:
-      target: "{{ title }}"
-      dir: LEFT         
+      name: money_evolution
+      filename: hooks/money_evolution.py
+      functions: money_evolution
+      num_samples: 3
+      acquisition_function: "ei"  # For exploration (optional)
+      kappa: 5  # Exploration factor (optional)
+      n_iters: 20  # Number of iterations (optional)
