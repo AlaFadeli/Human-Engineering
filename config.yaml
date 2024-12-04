@@ -236,7 +236,7 @@ slides:
         weights:
            - text: "The Digital Revolution"
              weight: BOLD
-        
+        no_next_slide: false
       - type: text
         text: " • Introduction of personal computers, the internet, and cloud computing"
         next_to:
@@ -260,6 +260,7 @@ slides:
         weights:
           - text: "Globalization"
             weight: BOLD
+        no_next_slide: false    
       - type: text
         text: " • Technology enabled businesses to operate globally."
         next_to:
@@ -307,7 +308,7 @@ slides:
         weights:
            - text: "From Hierarchical to Flat Structures"
              weight: BOLD
-
+        no_next_slide: false
       - type: text
         text: " • Decentralized decision-making."
         next_to:
@@ -316,7 +317,8 @@ slides:
         align_to:
           target: "{{ last }}"
           dir: LEFT
-        font_size: "self.vs_size"  
+        font_size: "self.vs_size"
+        no_next_slide: false
       - type: text
         text: " • Empowered teams with greater autonomy and accountability."
         next_to:
