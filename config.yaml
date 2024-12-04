@@ -3,7 +3,7 @@ defaults:
   - default_styling: config.yaml
   - _self_
 
-version: 0.0.9
+version: 0.0.8
 
 scene: 2D
 
@@ -241,7 +241,7 @@ slides:
         text: " • Introduction of personal computers, the internet, and cloud computing"
         next_to:
           target: "{{ last }}"
-          dir: "{{ last }}"
+          dir: DOWN
         align_to:
           target: "{{ last }}"
           dir: LEFT
@@ -258,10 +258,8 @@ slides:
           dir: LEFT
         font_size: "self.s_size"
         weights:
-           - text: "The Digital Revolution"
-             weight: BOLD
-
-          
+          - text: "Globalization"
+            weight: BOLD
       - type: text
         text: " • Technology enabled businesses to operate globally."
         next_to:
@@ -282,9 +280,9 @@ slides:
           dir: LEFT
         font_size: "self.s_size"
         weights:
-           - text: "Automation & Artificial Intelligence (AI) "
-             weight: BOLD
-             
+          - text: "Automation & Artificial Intelligence (AI)"  
+            weight: BOLD
+        no_next_slide: false    
       - type: text
         text: " • Routine tasks automated, shifting focus to knowledge-based work and innovation."
         next_to:
@@ -307,7 +305,7 @@ slides:
           dir: LEFT
         font_size: "self.s_size"
         weights:
-           - text: "From Hierarchical to Flat Structures "
+           - text: "From Hierarchical to Flat Structures"
              weight: BOLD
 
       - type: text
@@ -328,4 +326,4 @@ slides:
           target: "{{ last }}"
           dir: LEFT
         font_size: "self.vs_size"
-      
+        
