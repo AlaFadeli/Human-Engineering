@@ -3,29 +3,28 @@ defaults:
   - default_styling: config.yaml
   - _self_
 
-version: 0.0.8
+version: 0.0.9
 
 scene: 2D
 
 slides:
 
-#  - title: We'll look at...
-#    number: "   "
-#    content:
-#      - type: items
-#        bullets:
-#          - "Introduction"
-#          - "Traditional Organizational Structures"
-#          - "Technological Disruptions"
-#          - "Shifts in Management"
-#          - "Evolution of Communication"
-#          - "Cultural Shifts in Organizations"
-#          - "Future Trends"
-#          - "Challenges in Adapting to Technological Changes"
-#          - "Conclusion"
-#        distance: 3
-#        anchor: "{{ title }}"
-#
+  - title: We'll look at...
+    number: "   "
+    content:
+      - type: items
+        bullets:
+          - "Introduction"
+          - "Traditional Organizational Structures"
+          - "Technological Disruptions"
+          - "Shifts in Management"
+          - "Evolution of Communication"
+          - "Cultural Shifts in Organizations"
+          - "Future Trends"
+          - "Challenges in Adapting to Technological Changes"
+          - "Conclusion"
+        distance: 3
+        anchor: "{{ title }}"
 
   - title: Introduction
     number: "1.0"
@@ -34,7 +33,7 @@ slides:
         text: "Organizations have undergone continuous change:"
         next_to:
           target: "{{ title }}"
-          dir: 2*DOWN
+          dir: DOWN
         align_to:
           target: "{{ title }}"
           dir: LEFT
@@ -77,7 +76,7 @@ slides:
         text: "• Why This Matters:"
         next_to:
           target: "{{ last }}"
-          dir: 2*DOWN
+          dir: DOWN
         align_to:
           target: "{{ last }}"
           dir: LEFT
@@ -117,7 +116,7 @@ slides:
         text: " •Management:"
         next_to:
           target: "{{ title }}"
-          dir: 2*DOWN
+          dir: DOWN
         align_to:
           target: "{{ title }}"
           dir: LEFT
@@ -219,7 +218,7 @@ slides:
         text: "Technological advancements have disrupted traditional structures, leading to:"
         next_to:
           target: "{{ title }}"
-          dir: DOWN*2
+          dir: DOWN
         align_to: 
           target: "{{ title }}"
           dir: LEFT
@@ -283,16 +282,50 @@ slides:
           dir: LEFT
         font_size: "self.s_size"
         weights:
-           - text: "The Digital Revolution"
+           - text: "Automation & Artificial Intelligence (AI) "
              weight: BOLD
-
+             
       - type: text
-        text: " • Routine tasks automated, shifting focus to strategic roles"
+        text: " • Routine tasks automated, shifting focus to knowledge-based work and innovation."
         next_to:
           target: "{{ last }}"
           dir: DOWN
         align_to:
           target: "{{ last }}"
           dir: LEFT
-        font_size: "self.vs_size" 
+        font_size: "self.vs_size"  
+  - title: Shifts in Management
+    number: "3.0"
+    content: 
+      - type: text
+        text: " - From Hierarchical to Flat Structures:"
+        next_to:
+          target: "{{ title }}"
+          dir: DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        font_size: "self.s_size"
+        weights:
+           - text: "From Hierarchical to Flat Structures "
+             weight: BOLD
 
+      - type: text
+        text: " • Decentralized decision-making."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        font_size: "self.vs_size"  
+      - type: text
+        text: " • Empowered teams with greater autonomy and accountability."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        font_size: "self.vs_size"
+      
