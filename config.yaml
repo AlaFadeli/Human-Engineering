@@ -480,6 +480,133 @@ slides:
         image: Screenshot 2024-12-03 at 19-30-36 CEO.png
         scale: 0.6
         shift: RIGHT*5 + DOWN
+      - type: reset  
+        no_next_slide: false
+      - type: text
+        text: " Flat Organizational Structure :"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Flat Organizational Structure"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " A structure with fewer management layers, promoting collaboration and autonomy"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " Characteristics :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Fewer layers of management."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Decentralized decision-making."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Open communication."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: " Benefits :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Benefits"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Faster decision-making."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Increased collaboration."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " Drawbacks :"
+        next_to:
+          target: "{{ title }}"
+          dir: 11.5*DOWN
+        align_to: 
+          target: "{{ title }}"
+          dir: RIGHT
+        weights:
+           - text: "Drawbacks"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Role confusion."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Requires self-management."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: image
+        image: Screenshot 2024-12-07 at 10-30-30 What Is a Flat Organizational Chart Explained with Examples.png
+        scale: 1.1
+        shift: RIGHT*3 + DOWN*2
+  - title: Evolution of Communication
+    number: "4.2"
+    content: 
 #  - title: Evolution of Communication
 #    number: "5.0"
 #    content: 
