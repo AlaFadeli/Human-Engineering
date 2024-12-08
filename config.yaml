@@ -98,7 +98,6 @@ slides:
 #  - title: Traditional Organizational Structures
 #    number: "2.0"
 #    content:
-#        no_next_slide: false
 #      - type: text
 #        text: "Management:"
 #        next_to:
@@ -273,7 +272,7 @@ slides:
 #    number: "4.0"
 #    content: 
 #      - type: text
-#        text: " From Hierarchical to Flat Structures:"
+#        text: " 4.1 From Hierarchical to Flat Structures:"
 #        next_to:
 #          target: "{{ title }}"
 #          dir: 4*DOWN
@@ -281,7 +280,7 @@ slides:
 #          target: "{{ last }}"
 #          dir: LEFT
 #        weights:
-#           - text: "From Hierarchical to Flat Structures"
+#           - text: "4.1 From Hierarchical to Flat Structures"
 #             weight: BOLD
 #        no_next_slide: false
 #      - type: text
@@ -303,7 +302,7 @@ slides:
 #          dir: LEFT
 #        
 #      - type: text
-#        text: " Agile and Lean Management:"
+#        text: " 4.2 Agile and Lean Management:"
 #        next_to:
 #          target: "{{ last }}"
 #          dir: 2*DOWN
@@ -311,7 +310,7 @@ slides:
 #          target: "{{ last }}"
 #          dir: LEFT
 #        weights:
-#           - text: "Agile and Lean Management"
+#           - text: "4.2 Agile and Lean Management"
 #             weight: BOLD
 #        no_next_slide: false
 #      - type: text
@@ -333,7 +332,7 @@ slides:
 #          dir: LEFT
 #        
 #      - type: text
-#        text: " Data-Driven Decision Making:"
+#        text: " 4.3 Data-Driven Decision Making:"
 #        next_to:
 #          target: "{{ last }}"
 #          dir: 2*DOWN
@@ -341,7 +340,7 @@ slides:
 #          target: "{{ last }}"
 #          dir: LEFT
 #        weights:
-#           - text: "Data-Driven Decision Making"
+#           - text: "4.3 Data-Driven Decision Making"
 #             weight: BOLD
 #        no_next_slide: false
 #      - type: text
@@ -353,260 +352,533 @@ slides:
 #          target: "{{ last }}"
 #          dir: LEFT
 #        no_next_slide: false
-      
-  - title: From Hierarchical to Flat Structures
-    number: "4.1"
-    content: 
+#      
+#  - title: From Hierarchical to Flat Structures
+#    number: "4.1"
+#    content: 
+#      - type: text
+#        text: " Traditional Hierarchical Structure :"
+#        next_to:
+#          target: "{{ title }}"
+#          dir: 4*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Traditional Hierarchical Structure"
+#             weight: BOLD
+#        no_next_slide: false
+#      - type: text
+#        text: " A structure with multiple layers of authority and a top-down management approach"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        
+#      - type: text
+#        text: " Characteristics :"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Characteristics"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Clear authority lines."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Centralized decision-making."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Vertical Communication."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#      - type: text
+#        text: " Benefits :"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Benefits"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Clear accountability."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Effective for large organizations."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        
+#      - type: text
+#        text: " Drawbacks :"
+#        next_to:
+#          target: "{{ title }}"
+#          dir: 11.5*DOWN
+#        align_to: 
+#          target: "{{ title }}"
+#          dir: RIGHT
+#        weights:
+#           - text: "Drawbacks"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Slow decision-making."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Limited flexibility."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false  
+#      - type: image
+#        image: Screenshot 2024-12-03 at 19-30-36 CEO.png
+#        scale: 0.6
+#        shift: RIGHT*5 + DOWN
+#      - type: reset  
+#        no_next_slide: false
+#      - type: text
+#        text: " Flat Organizational Structure :"
+#        next_to:
+#          target: "{{ title }}"
+#          dir: 4*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Flat Organizational Structure"
+#             weight: BOLD
+#        no_next_slide: false
+#      - type: text
+#        text: " A structure with fewer management layers, promoting collaboration and autonomy"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        
+#      - type: text
+#        text: " Characteristics :"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Characteristics"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Fewer layers of management."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Decentralized decision-making."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Open communication."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#      - type: text
+#        text: " Benefits :"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Benefits"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Faster decision-making."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Increased collaboration."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        
+#      - type: text
+#        text: " Drawbacks :"
+#        next_to:
+#          target: "{{ title }}"
+#          dir: 11.5*DOWN
+#        align_to: 
+#          target: "{{ title }}"
+#          dir: RIGHT
+#        weights:
+#           - text: "Drawbacks"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Role confusion."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Requires self-management."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#      - type: image
+#        image: Screenshot 2024-12-07 at 10-30-30 What Is a Flat Organizational Chart Explained with Examples.png
+#        scale: 1.1
+#        shift: RIGHT*3 + DOWN*2
+#  - title: Agile & Lean Management
+#    number: "4.2"
+#    content: 
+#      - type: text
+#        text: " Agile Management :"
+#        next_to:
+#          target: "{{ title }}"
+#          dir: 4*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Agile Management"
+#             weight: BOLD
+#        no_next_slide: false
+#      - type: text
+#        text: " An iterative approach to project management that emphasizes flexibility and collaboration "
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#      - type: image
+#        image: Screenshot 2024-12-07 at 11-11-54 What Is Agile Project Management Types Methods & Benefits.png
+#        scale: 1.1
+#        shift: DOWN
+#      - type: reset       
+#      - type: text
+#        text: " Characteristics :"
+#        next_to:
+#          target: "{{ title }}"
+#          dir: 4*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Characteristics"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Iterative and incremental processes with short cycles."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Strong focus on collaboration through cross-functional teams."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Customer-centric approach that incorporates feedback during each cycle."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#      - type: reset    
+#      - type: text
+#        text: " Benefits :"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Benefits"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Adaptability to changes, ensuring the product aligns with customer needs."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Enhanced collaboration improves team morale and problem-solving."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#      - type: text
+#        text: " Drawbacks :"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to: 
+#          target: "{{ title }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Drawbacks"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ May lack predictability due to frequent changes in scope."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Requires high commitment and active involvement from all stakeholders."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#      - type: reset    
+#      - type: text
+#        text: " Lean Management :"
+#        next_to:
+#          target: "{{ title }}"
+#          dir: 4*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Lean Management"
+#             weight: BOLD
+#        no_next_slide: false
+#      - type: text
+#        text: "A systematic methodology focused on creating value for the costumer "
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false  
+#      - type: image
+#        image: Screenshot 2024-12-07 at 11-33-41 The ultimate guide to Lean project management.png
+#        scale: 1.1
+#        shift: DOWN + RIGHT*3.2
+#        no_next_slide: false
+#      - type: image
+#        image: Screenshot 2024-12-08 at 06-29-22 Le guide complet du Lean Management.png
+#        scale: 1.2
+#        shift: DOWN + LEFT*3 
+#      - type: reset  
+#      - type: text
+#        text: " Characteristics :"
+#        next_to:
+#          target: "{{ title }}"
+#          dir: 4*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Characteristics"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Emphasizes minimizing waste (e.g., overproduction, waiting times, defects...)."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Continuous improvement and focus on value-added activities."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Employee empowerment, encouraging team involvement in problem-solving."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false  
+#      - type: text
+#        text: " Benefits :"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to: 
+#          target: "{{ last }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Benefits"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Cost efficiency and streamlined workflows."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+#      - type: text
+#        text: " ‣ Improved quality and consistency in processes and outputs."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#      - type: text
+#        text: " Drawbacks :"
+#        next_to:
+#          target: "{{ last }}"
+#          dir: 2*DOWN
+#        align_to: 
+#          target: "{{ title }}"
+#          dir: LEFT
+#        weights:
+#           - text: "Drawbacks"
+#             weight: BOLD
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Implementation challenges due to resistance to change."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false     
+#      - type: text
+#        text: " ‣ Risk of focusing too much on efficiency, potentially neglecting innovation."
+#        next_to:
+#          target: "{{ last }}"
+#          dir: DOWN
+#        align_to:
+#          target: "{{ last }}"
+#          dir: LEFT
+#        no_next_slide: false
+  - title: Data-Driven Decision Making
+    number: "4.3"
+    content:
       - type: text
-        text: " Traditional Hierarchical Structure :"
+        text: Making organizational decisions based on verified and analyzed data
         next_to:
           target: "{{ title }}"
           dir: 4*DOWN
-        align_to: 
-          target: "{{ last }}"
-          dir: LEFT
-        weights:
-           - text: "Traditional Hierarchical Structure"
-             weight: BOLD
-        no_next_slide: false
-      - type: text
-        text: " A structure with multiple layers of authority and a top-down management approach"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
         align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        
-      - type: text
-        text: " Characteristics :"
-        next_to:
-          target: "{{ last }}"
-          dir: 2*DOWN
-        align_to: 
-          target: "{{ last }}"
-          dir: LEFT
-        weights:
-           - text: "Characteristics"
-             weight: BOLD
-        no_next_slide: false     
-      - type: text
-        text: " ‣ Clear authority lines."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        no_next_slide: false
-      - type: text
-        text: " ‣ Centralized decision-making."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        no_next_slide: false
-      - type: text
-        text: " ‣ Vertical Communication."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-      - type: text
-        text: " Benefits :"
-        next_to:
-          target: "{{ last }}"
-          dir: 2*DOWN
-        align_to: 
-          target: "{{ last }}"
-          dir: LEFT
-        weights:
-           - text: "Benefits"
-             weight: BOLD
-        no_next_slide: false     
-      - type: text
-        text: " ‣ Clear accountability."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        no_next_slide: false
-      - type: text
-        text: " ‣ Effective for large organizations."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        
-      - type: text
-        text: " Drawbacks :"
-        next_to:
           target: "{{ title }}"
-          dir: 11.5*DOWN
-        align_to: 
-          target: "{{ title }}"
-          dir: RIGHT
-        weights:
-           - text: "Drawbacks"
-             weight: BOLD
-        no_next_slide: false     
-      - type: text
-        text: " ‣ Slow decision-making."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
           dir: LEFT
-        no_next_slide: false     
-      - type: text
-        text: " ‣ Limited flexibility."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        no_next_slide: false  
+        no_next_slide: false
       - type: image
-        image: Screenshot 2024-12-03 at 19-30-36 CEO.png
-        scale: 0.6
-        shift: RIGHT*5 + DOWN
-      - type: reset  
-        no_next_slide: false
-      - type: text
-        text: " Flat Organizational Structure :"
-        next_to:
-          target: "{{ title }}"
-          dir: 4*DOWN
-        align_to: 
-          target: "{{ last }}"
-          dir: LEFT
-        weights:
-           - text: "Flat Organizational Structure"
-             weight: BOLD
-        no_next_slide: false
-      - type: text
-        text: " A structure with fewer management layers, promoting collaboration and autonomy"
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        
-      - type: text
-        text: " Characteristics :"
-        next_to:
-          target: "{{ last }}"
-          dir: 2*DOWN
-        align_to: 
-          target: "{{ last }}"
-          dir: LEFT
-        weights:
-           - text: "Characteristics"
-             weight: BOLD
-        no_next_slide: false     
-      - type: text
-        text: " ‣ Fewer layers of management."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        no_next_slide: false
-      - type: text
-        text: " ‣ Decentralized decision-making."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        no_next_slide: false
-      - type: text
-        text: " ‣ Open communication."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-      - type: text
-        text: " Benefits :"
-        next_to:
-          target: "{{ last }}"
-          dir: 2*DOWN
-        align_to: 
-          target: "{{ last }}"
-          dir: LEFT
-        weights:
-           - text: "Benefits"
-             weight: BOLD
-        no_next_slide: false     
-      - type: text
-        text: " ‣ Faster decision-making."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        no_next_slide: false
-      - type: text
-        text: " ‣ Increased collaboration."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        
-      - type: text
-        text: " Drawbacks :"
-        next_to:
-          target: "{{ title }}"
-          dir: 11.5*DOWN
-        align_to: 
-          target: "{{ title }}"
-          dir: RIGHT
-        weights:
-           - text: "Drawbacks"
-             weight: BOLD
-        no_next_slide: false     
-      - type: text
-        text: " ‣ Role confusion."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-        no_next_slide: false     
-      - type: text
-        text: " ‣ Requires self-management."
-        next_to:
-          target: "{{ last }}"
-          dir: DOWN
-        align_to:
-          target: "{{ last }}"
-          dir: LEFT
-      - type: image
-        image: Screenshot 2024-12-07 at 10-30-30 What Is a Flat Organizational Chart Explained with Examples.png
+        image: Screenshot 2024-12-08 at 20-31-35 What Is Data-Driven Decision Making for Business Success.png
         scale: 1.1
-        shift: RIGHT*3 + DOWN*2
-  - title: Evolution of Communication
-    number: "4.2"
-    content: 
+        shift: DOWN*0.8 + LEFT*3
+        no_next_slide: false
+      - type: image
+        image: Screenshot 2024-12-08 at 20-31-24 What Is Data-Driven Decision Making for Business Success.png
+        scale: 1.1
+        shift: DOWN*0.8 + RIGHT*4
 #  - title: Evolution of Communication
 #    number: "5.0"
 #    content: 
