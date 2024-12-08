@@ -9,855 +9,854 @@ scene: 2D
 
 slides:
 
-#  - title: We'll look at...
-#    number: "   "
-#    content:
-#      - type: items
-#        bullets:
-#          - "Introduction"
-#          - "Traditional Organizational Structures"
-#          - "Technological Disruptions"
-#          - "Shifts in Management"
-#          - "Evolution of Communication"
-#          - "Cultural Shifts in Organizations"
-#          - "Future Trends"
-#          - "Challenges in Adapting to Technological Changes"
-#          - "Conclusion"
-#        distance: 3
-#        anchor: "{{ title }}"
-#
-#  - title: Introduction
-#    number: "1.0"
-#    content:
-#      - type: text
-#        text: "Organizations have undergone continuous change:"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to:
-#          target: "{{ title }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text 
-#        text: "Driven by evolving technologies, globalization, and workforce dynamics."
-#        next_to:
-#          target: "{{ last }}"
-#          dir:  DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#      - type: text
-#        text: "Objective: To explore the impact of technological disruptions on three key areas: "
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#          - text: "Objective"
-#            weight: BOLD
-#        no_next_slide: false    
-#      - type: items
-#        bullets:
-#          - Management Structures
-#          - Communication Processes
-#          - Organizational Culture
-#        distance: 1
-#        font_size: "self.vs_size"
-#        anchor: "{{ last }}"
-#      - type: text
-#        text: "Why This Matters:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#          - text: "Why This Matters:"
-#            weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: "   ‣ Technology dictates how businesses operate, compete, and grow"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: "   ‣ Understanding these changes is crucial for adapting to the future of work"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#  - title: Traditional Organizational Structures
-#    number: "2.0"
-#    content:
-#      - type: text
-#        text: "Management:"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to:
-#          target: "{{ title }}"
-#          dir: LEFT
-#        weights:
-#          - text: "Management:"
-#            weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Hierarchical and centralized."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Clear chain of command with authority concentrated at the top."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#          
-#      - type: text
-#        text: "Communication:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to:
-#          target: "{{ title }}"
-#          dir: LEFT
-#        weights:
-#          - text: "Communication"
-#            weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Linear and top-down"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false  
-#      - type: text
-#        text: " ‣ Primarily face-to-face, with formal memos and written reports."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#
-#      - type: text
-#        text: " Culture:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to:
-#          target: "{{ title }}"
-#          dir: LEFT
-#        weights:
-#          - text: "Culture"
-#            weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Stability and predictability were prioritized over innovation."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Employee roles were rigid, with little room for autonomy or creativity."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#
-#  - title: Technological Disruptions
-#    number: "3.0"
-#    content:
-#      - type: text
-#        text: "Technological advancements have disrupted traditional structures, leading to:"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 3*DOWN
-#        align_to: 
-#          target: "{{ title }}"
-#          dir: LEFT
-#
-#      - type: text
-#        text: "01 : The Digital Revolution:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "The Digital Revolution"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Introduction of personal computers, the internet, and cloud computing"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#            
-#
-#      - type: text
-#        text: "02 : Globalization:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#          - text: "Globalization"
-#            weight: BOLD
-#        no_next_slide: false    
-#      - type: text
-#        text: " ‣ Technology enabled businesses to operate globally."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#
-#      - type: text
-#        text: " 03 : Automation & Artificial Intelligence (AI):"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#          - text: "Automation & Artificial Intelligence (AI)"  
-#            weight: BOLD
-#        no_next_slide: false    
-#      - type: text
-#        text: " ‣ Routine tasks automated, shifting focus to knowledge-based work and innovation."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false  
-#      - type: image
-#        image: Screenshot 2024-12-03 at 21-18-40 CEO.png
-#        scale: 0.8
-#        shift: 3.4*DOWN
-#  - title: Shifts in Management
-#    number: "4.0"
-#    content: 
-#      - type: text
-#        text: " 4.1 From Hierarchical to Flat Structures:"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "4.1 From Hierarchical to Flat Structures"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Decentralized decision-making."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Empowered teams with greater autonomy and accountability."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        
-#      - type: text
-#        text: " 4.2 Agile and Lean Management:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "4.2 Agile and Lean Management"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Focus on iterative processes, rapid feedback, and continuous improvement."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Tech companies adopting Agile methodologies."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        
-#      - type: text
-#        text: " 4.3 Data-Driven Decision Making:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "4.3 Data-Driven Decision Making"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Leveraging big data and analytics for strategic decisions."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      
-#  - title: From Hierarchical to Flat Structures
-#    number: "4.1"
-#    content: 
-#      - type: text
-#        text: " Traditional Hierarchical Structure :"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Traditional Hierarchical Structure"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " A structure with multiple layers of authority and a top-down management approach"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        
-#      - type: text
-#        text: " Characteristics :"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Characteristics"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Clear authority lines."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Centralized decision-making."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Vertical Communication."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#      - type: text
-#        text: " Benefits :"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Benefits"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Clear accountability."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Effective for large organizations."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        
-#      - type: text
-#        text: " Drawbacks :"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 11.5*DOWN
-#        align_to: 
-#          target: "{{ title }}"
-#          dir: RIGHT
-#        weights:
-#           - text: "Drawbacks"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Slow decision-making."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Limited flexibility."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false  
-#      - type: image
-#        image: Screenshot 2024-12-03 at 19-30-36 CEO.png
-#        scale: 0.6
-#        shift: RIGHT*5 + DOWN
-#      - type: reset  
-#        no_next_slide: false
-#      - type: text
-#        text: " Flat Organizational Structure :"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Flat Organizational Structure"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " A structure with fewer management layers, promoting collaboration and autonomy"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        
-#      - type: text
-#        text: " Characteristics :"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Characteristics"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Fewer layers of management."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Decentralized decision-making."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Open communication."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#      - type: text
-#        text: " Benefits :"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Benefits"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Faster decision-making."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Increased collaboration."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        
-#      - type: text
-#        text: " Drawbacks :"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 11.5*DOWN
-#        align_to: 
-#          target: "{{ title }}"
-#          dir: RIGHT
-#        weights:
-#           - text: "Drawbacks"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Role confusion."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Requires self-management."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#      - type: image
-#        image: Screenshot 2024-12-07 at 10-30-30 What Is a Flat Organizational Chart Explained with Examples.png
-#        scale: 1.1
-#        shift: RIGHT*3 + DOWN*2
-#  - title: Agile & Lean Management
-#    number: "4.2"
-#    content: 
-#      - type: text
-#        text: " Agile Management :"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Agile Management"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " An iterative approach to project management that emphasizes flexibility and collaboration "
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#      - type: image
-#        image: Screenshot 2024-12-07 at 11-11-54 What Is Agile Project Management Types Methods & Benefits.png
-#        scale: 1.1
-#        shift: DOWN
-#      - type: reset       
-#      - type: text
-#        text: " Characteristics :"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Characteristics"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Iterative and incremental processes with short cycles."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Strong focus on collaboration through cross-functional teams."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Customer-centric approach that incorporates feedback during each cycle."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#      - type: reset    
-#      - type: text
-#        text: " Benefits :"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Benefits"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Adaptability to changes, ensuring the product aligns with customer needs."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Enhanced collaboration improves team morale and problem-solving."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#      - type: text
-#        text: " Drawbacks :"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ title }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Drawbacks"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ May lack predictability due to frequent changes in scope."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Requires high commitment and active involvement from all stakeholders."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#      - type: reset    
-#      - type: text
-#        text: " Lean Management :"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Lean Management"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: "A systematic methodology focused on creating value for the costumer "
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false  
-#      - type: image
-#        image: Screenshot 2024-12-07 at 11-33-41 The ultimate guide to Lean project management.png
-#        scale: 1.1
-#        shift: DOWN + RIGHT*3.2
-#        no_next_slide: false
-#      - type: image
-#        image: Screenshot 2024-12-08 at 06-29-22 Le guide complet du Lean Management.png
-#        scale: 1.2
-#        shift: DOWN + LEFT*3 
-#      - type: reset  
-#      - type: text
-#        text: " Characteristics :"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Characteristics"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Emphasizes minimizing waste (e.g., overproduction, waiting times, defects...)."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Continuous improvement and focus on value-added activities."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Employee empowerment, encouraging team involvement in problem-solving."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false  
-#      - type: text
-#        text: " Benefits :"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Benefits"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Cost efficiency and streamlined workflows."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Improved quality and consistency in processes and outputs."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#      - type: text
-#        text: " Drawbacks :"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ title }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Drawbacks"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Implementation challenges due to resistance to change."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Risk of focusing too much on efficiency, potentially neglecting innovation."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
+  - title: We'll look at...
+    number: "   "
+    content:
+      - type: items
+        bullets:
+          - "Introduction"
+          - "Traditional Organizational Structures"
+          - "Technological Disruptions"
+          - "Shifts in Management"
+          - "Evolution of Communication"
+          - "Cultural Shifts in Organizations"
+          - "Future Trends"
+          - "Challenges in Adapting to Technological Changes"
+          - "Conclusion"
+        distance: 3
+        anchor: "{{ title }}"
+
+  - title: Introduction
+    number: "1.0"
+    content:
+      - type: text
+        text: "Organizations have undergone continuous change:"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to:
+          target: "{{ title }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text 
+        text: "Driven by evolving technologies, globalization, and workforce dynamics."
+        next_to:
+          target: "{{ last }}"
+          dir:  DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: "Objective: To explore the impact of technological disruptions on three key areas: "
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+          - text: "Objective"
+            weight: BOLD
+        no_next_slide: false    
+      - type: items
+        bullets:
+          - Management Structures
+          - Communication Processes
+          - Organizational Culture
+        distance: 1
+        font_size: "self.vs_size"
+        anchor: "{{ last }}"
+      - type: text
+        text: "Why This Matters:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+          - text: "Why This Matters:"
+            weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: "   ‣ Technology dictates how businesses operate, compete, and grow"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: "   ‣ Understanding these changes is crucial for adapting to the future of work"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+  - title: Traditional Organizational Structures
+    number: "2.0"
+    content:
+      - type: text
+        text: "Management:"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to:
+          target: "{{ title }}"
+          dir: LEFT
+        weights:
+          - text: "Management:"
+            weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Hierarchical and centralized."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Clear chain of command with authority concentrated at the top."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+          
+      - type: text
+        text: "Communication:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to:
+          target: "{{ title }}"
+          dir: LEFT
+        weights:
+          - text: "Communication"
+            weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Linear and top-down"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣ Primarily face-to-face, with formal memos and written reports."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+
+      - type: text
+        text: " Culture:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to:
+          target: "{{ title }}"
+          dir: LEFT
+        weights:
+          - text: "Culture"
+            weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Stability and predictability were prioritized over innovation."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Employee roles were rigid, with little room for autonomy or creativity."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+
+  - title: Technological Disruptions
+    number: "3.0"
+    content:
+      - type: text
+        text: "Technological advancements have disrupted traditional structures, leading to:"
+        next_to:
+          target: "{{ title }}"
+          dir: 3*DOWN
+        align_to: 
+          target: "{{ title }}"
+          dir: LEFT
+
+      - type: text
+        text: "01 : The Digital Revolution:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "The Digital Revolution"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Introduction of personal computers, the internet, and cloud computing"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+            
+
+      - type: text
+        text: "02 : Globalization:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+          - text: "Globalization"
+            weight: BOLD
+        no_next_slide: false    
+      - type: text
+        text: " ‣ Technology enabled businesses to operate globally."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+
+      - type: text
+        text: " 03 : Automation & Artificial Intelligence (AI):"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+          - text: "Automation & Artificial Intelligence (AI)"  
+            weight: BOLD
+        no_next_slide: false    
+      - type: text
+        text: " ‣ Routine tasks automated, shifting focus to knowledge-based work and innovation."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: image
+        image: Screenshot 2024-12-03 at 21-18-40 CEO.png
+        scale: 0.8
+        shift: 3.4*DOWN
+  - title: Shifts in Management
+    number: "4.0"
+    content: 
+      - type: text
+        text: " 4.1 From Hierarchical to Flat Structures:"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "4.1 From Hierarchical to Flat Structures"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Decentralized decision-making."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Empowered teams with greater autonomy and accountability."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " 4.2 Agile and Lean Management:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "4.2 Agile and Lean Management"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Focus on iterative processes, rapid feedback, and continuous improvement."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Tech companies adopting Agile methodologies."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " 4.3 Data-Driven Decision Making:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "4.3 Data-Driven Decision Making"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Leveraging big data and analytics for strategic decisions."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      
+  - title: From Hierarchical to Flat Structures
+    number: "4.1"
+    content: 
+      - type: text
+        text: " Traditional Hierarchical Structure :"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Traditional Hierarchical Structure"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " A structure with multiple layers of authority and a top-down management approach"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " Characteristics :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Clear authority lines."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Centralized decision-making."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Vertical Communication."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: " Benefits :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Benefits"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Clear accountability."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Effective for large organizations."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " Drawbacks :"
+        next_to:
+          target: "{{ title }}"
+          dir: 11.5*DOWN
+        align_to: 
+          target: "{{ title }}"
+          dir: RIGHT
+        weights:
+           - text: "Drawbacks"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Slow decision-making."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Limited flexibility."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: image
+        image: Screenshot 2024-12-03 at 19-30-36 CEO.png
+        scale: 0.6
+        shift: RIGHT*5 + DOWN
+      - type: reset  
+        no_next_slide: false
+      - type: text
+        text: " Flat Organizational Structure :"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Flat Organizational Structure"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " A structure with fewer management layers, promoting collaboration and autonomy"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " Characteristics :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Fewer layers of management."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Decentralized decision-making."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Open communication."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: " Benefits :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Benefits"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Faster decision-making."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Increased collaboration."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " Drawbacks :"
+        next_to:
+          target: "{{ title }}"
+          dir: 11.5*DOWN
+        align_to: 
+          target: "{{ title }}"
+          dir: RIGHT
+        weights:
+           - text: "Drawbacks"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Role confusion."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Requires self-management."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: image
+        image: Screenshot 2024-12-07 at 10-30-30 What Is a Flat Organizational Chart Explained with Examples.png
+        scale: 1.1
+        shift: RIGHT*3 + DOWN*2
+  - title: Agile & Lean Management
+    number: "4.2"
+    content: 
+      - type: text
+        text: " Agile Management :"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Agile Management"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " An iterative approach to project management that emphasizes flexibility and collaboration "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: image
+        image: Screenshot 2024-12-07 at 11-11-54 What Is Agile Project Management Types Methods & Benefits.png
+        scale: 1.1
+        shift: DOWN
+      - type: reset       
+      - type: text
+        text: " Characteristics :"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Iterative and incremental processes with short cycles."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Strong focus on collaboration through cross-functional teams."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Customer-centric approach that incorporates feedback during each cycle."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: " Benefits :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Benefits"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Adaptability to changes, ensuring the product aligns with customer needs."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Enhanced collaboration improves team morale and problem-solving."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: " Drawbacks :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ title }}"
+          dir: LEFT
+        weights:
+           - text: "Drawbacks"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ May lack predictability due to frequent changes in scope."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Requires high commitment and active involvement from all stakeholders."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: reset    
+      - type: text
+        text: " Lean Management :"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Lean Management"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: "A systematic methodology focused on creating value for the costumer "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: image
+        image: Screenshot 2024-12-07 at 11-33-41 The ultimate guide to Lean project management.png
+        scale: 1.1
+        shift: DOWN + RIGHT*3.2
+        no_next_slide: false
+      - type: image
+        image: Screenshot 2024-12-08 at 06-29-22 Le guide complet du Lean Management.png
+        scale: 1.2
+        shift: DOWN + LEFT*3 
+      - type: reset  
+      - type: text
+        text: " Characteristics :"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Emphasizes minimizing waste (e.g., overproduction, waiting times, defects...)."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Continuous improvement and focus on value-added activities."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Employee empowerment, encouraging team involvement in problem-solving."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " Benefits :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Benefits"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Cost efficiency and streamlined workflows."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Improved quality and consistency in processes and outputs."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: " Drawbacks :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ title }}"
+          dir: LEFT
+        weights:
+           - text: "Drawbacks"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Implementation challenges due to resistance to change."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Risk of focusing too much on efficiency, potentially neglecting innovation."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
   - title: Data-Driven Decision Making
     number: "4.3"
     content:
@@ -879,296 +878,400 @@ slides:
         image: Screenshot 2024-12-08 at 20-31-24 What Is Data-Driven Decision Making for Business Success.png
         scale: 1.1
         shift: DOWN*0.8 + RIGHT*4
-#  - title: Evolution of Communication
-#    number: "5.0"
-#    content: 
-#      - type: text 
-#        text: " Traditional Communication:"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Traditional Communication"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ DFace-to-face meetings, memos, and emails"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Delayed feedback and limited collaboration"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        
-#      - type: text
-#        text: " Modern Communication:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Modern Communication"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Instant Messaging & Collaboration Tools: Slack, Microsoft Teams"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Remote Communication: Video conferencing tools like Zoom and Google Meet"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Asynchronous Work: Employees can collaborate across time zones."
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#
-#  - title: Cultural Shifts in Organizations
-#    number: "6.0"
-#    content:
-#      - type: text 
-#        text: " Traditional Culture:"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Traditional Culture"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Emphasis on conformity, stability, and clear roles"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Innovation was often limited to specific departments"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        
-#      - type: text
-#        text: " Modern Culture:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Modern Culture"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Innovation-Driven: Encouraging experimentation and risk-taking"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Employee-Centric: Focus on well-being, diversity, and inclusion"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Collaborative: Cross-functional teams and open communication"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#  - title: Future Trends in Organizational Structures
-#    number: "7.0"
-#    content:
-#      - type: text 
-#        text: " Remote-First Organizations:"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Remote-First Organizations"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Distributed teams as the new normal"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Challenges: Managing remote teams, maintaining culture"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        
-#      - type: text
-#        text: " AI-Augmented Organizations:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "AI-Augmented Organizations"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ AI and machine learning assisting in decision-making and routine tasks"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Employees focusing on strategic and creative roles"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#      - type: text 
-#        text: " Networked Organizations:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Networked Organizations"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Companies operating as ecosystems, partnering with other firms and freelancers"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#          
-#  - title: Challenges in Adapting to Technological Changes
-#    number: "8.0"
-#    content:
-#      - type: text 
-#        text: " Resistance to Change:"
-#        next_to:
-#          target: "{{ title }}"
-#          dir: 4*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Resistance to Change:"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Employees and managers may resist adopting new technologies"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#        
-#      - type: text
-#        text: " Cybersecurity :"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Cybersecurity"
-#             weight: BOLD
-#        no_next_slide: false
-#      - type: text
-#        text: " ‣ Increased reliance on digital tools raises security concerns"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#      - type: text 
-#        text: " Skill Gaps:"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: 2*DOWN
-#        align_to: 
-#          target: "{{ last }}"
-#          dir: LEFT
-#        weights:
-#           - text: "Skill Gaps"
-#             weight: BOLD
-#        no_next_slide: false     
-#      - type: text
-#        text: " ‣ Need for continuous upskilling to adapt to new technologies"
-#        next_to:
-#          target: "{{ last }}"
-#          dir: DOWN
-#        align_to:
-#          target: "{{ last }}"
-#          dir: LEFT
-#
+  - title: Evolution of Communication
+    number: "5.0"
+    content: 
+      - type: text 
+        text: " 5.1 Traditional Communication:"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "5.1 Traditional Communication"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ DFace-to-face meetings, memos, and emails"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Delayed feedback and limited collaboration"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " 5.2 Modern Communication:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "5.2 Modern Communication"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Instant Messaging & Collaboration Tools: Slack, Microsoft Teams"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Remote Communication: Video conferencing tools like Zoom and Google Meet"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Asynchronous Work: Employees can collaborate across time zones."
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+
+  - title: Traditional Communication
+    number: "5.1"
+    content:
+      - type: text 
+        text: " Formal, hierarchical, and offline organizational communication methods "
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " Characteristics :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Information flows top-down or through fixed channels"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Heavy reliance on memos, letters, and structured meeting"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Delayed feedback due to slower communication methods"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Frequent reliance on physical presence for communication"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " Limitations :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Limitations"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Delayed information flow across departments"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Limited Reach: Constrained by geography and access to physical tools"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Inability to adapt to real-time changes or needs"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: image
+        image: Screenshot 2024-12-08 at 21-28-50 The Pyramid Of Communication - How To Improve Your Team Communication.png
+        scale: 0.9
+        shift: RIGHT*5 
+      
+  - title: Cultural Shifts in Organizations
+    number: "6.0"
+    content:
+      - type: text 
+        text: " Traditional Culture:"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Traditional Culture"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Emphasis on conformity, stability, and clear roles"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Innovation was often limited to specific departments"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " Modern Culture:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Modern Culture"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Innovation-Driven: Encouraging experimentation and risk-taking"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Employee-Centric: Focus on well-being, diversity, and inclusion"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Collaborative: Cross-functional teams and open communication"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+  - title: Future Trends in Organizational Structures
+    number: "7.0"
+    content:
+      - type: text 
+        text: " Remote-First Organizations:"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Remote-First Organizations"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Distributed teams as the new normal"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Challenges: Managing remote teams, maintaining culture"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " AI-Augmented Organizations:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "AI-Augmented Organizations"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ AI and machine learning assisting in decision-making and routine tasks"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Employees focusing on strategic and creative roles"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text 
+        text: " Networked Organizations:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Networked Organizations"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Companies operating as ecosystems, partnering with other firms and freelancers"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+          
+  - title: Challenges in Adapting to Technological Changes
+    number: "8.0"
+    content:
+      - type: text 
+        text: " Resistance to Change:"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Resistance to Change:"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Employees and managers may resist adopting new technologies"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text
+        text: " Cybersecurity :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Cybersecurity"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Increased reliance on digital tools raises security concerns"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text 
+        text: " Skill Gaps:"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Skill Gaps"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Need for continuous upskilling to adapt to new technologies"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+
