@@ -9,7 +9,7 @@ scene: 2D
 
 slides:
 
-  - title: We'll look at...
+  - title: We'll look at .. 
     number: "   "
     content:
       - type: items
@@ -1056,10 +1056,112 @@ slides:
         shift: RIGHT*5 
       
   - title: Cultural Shifts in Organizations
+    number: "5.2"
+    content:
+      - type: text 
+        text: " Flexible, collaborative, and tech-driven organizational communication methods "
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " Characteristics :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Instant communication via messaging apps and video calls"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Encourages teamwork through shared platforms like Slack, Teams, or Trello"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Information flows freely across levels and departments"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Frequent reliance on physical presence for communication"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: " Advantages :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Advantages"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Instantaneous communication across the globe"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Easy to reach team members regardless of location"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Combines communication with data analytics and tracking"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: image
+        image: Screenshot 2024-12-08 at 23-25-48 Increase Your Bandwidth With These 3 Tech-Savvy Speaking Tips.png
+        scale: 0.9
+        shift: RIGHT*5 + DOWN*1.6
+  - title: Cultural Shifts in Organizations
     number: "6.0"
     content:
       - type: text 
-        text: " Traditional Culture:"
+        text: " 6.1 Traditional Culture:"
         next_to:
           target: "{{ title }}"
           dir: 4*DOWN
@@ -1067,7 +1169,7 @@ slides:
           target: "{{ last }}"
           dir: LEFT
         weights:
-           - text: "Traditional Culture"
+           - text: "6.1 Traditional Culture"
              weight: BOLD
         no_next_slide: false
       - type: text
@@ -1089,7 +1191,7 @@ slides:
           dir: LEFT
         
       - type: text
-        text: " Modern Culture:"
+        text: "6.2 Modern Culture:"
         next_to:
           target: "{{ last }}"
           dir: 2*DOWN
@@ -1097,7 +1199,7 @@ slides:
           target: "{{ last }}"
           dir: LEFT
         weights:
-           - text: "Modern Culture"
+           - text: "6.2 Modern Culture"
              weight: BOLD
         no_next_slide: false
       - type: text
@@ -1127,11 +1229,197 @@ slides:
           target: "{{ last }}"
           dir: LEFT
         no_next_slide: false
+  - title: Traditional Culture
+    number: "6.1"
+    content:
+      - type: text 
+        text: " A hierarchical, rule-driven, and stability-focused organizational culture "
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " Characteristics :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Emphasis on policies, procedures, and formalized processes"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Prioritizes predictability and minimizing risks"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Performance is evaluated at the individual level"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: " Challenges :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Challenges"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Difficulty adapting to new trends and market demands"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Inhibits creativity and innovation"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Can lead to dissatisfaction due to rigid hierarchies"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: image
+        image: Screenshot 2024-12-09 at 09-36-57 types-of-organizational-culture.webp (WEBP Image 1024 × 680 pixels).png
+        scale: 0.8
+        shift: RIGHT*4 + DOWN
+  - title: Modern Culture
+    number: "6.2"
+    content:
+      - type: text 
+        text: " A dynamic, collaborative, and innovation-focused organizational culture "
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " Characteristics :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣  Encourages collaboration and reduces hierarchical barriers "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Embraces change and thrives on continuous improvement"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Emphasizes collective goals and performance"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: "  Advantages :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Advantages"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Fosters creativity and new ideas"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Empowers individuals, improving job satisfaction"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Breaks silos for better teamwork and integration"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: image
+        image: Screenshot 2024-12-09 at 12-53-07 Organizational Culture Definition Importance and Development.png
+        scale: 1.1
+        shift: RIGHT*4 + DOWN
   - title: Future Trends in Organizational Structures
     number: "7.0"
     content:
       - type: text 
-        text: " Remote-First Organizations:"
+        text: " 7.1 Remote-First Organizations:"
         next_to:
           target: "{{ title }}"
           dir: 4*DOWN
@@ -1139,7 +1427,7 @@ slides:
           target: "{{ last }}"
           dir: LEFT
         weights:
-           - text: "Remote-First Organizations"
+           - text: "7.1 Remote-First Organizations"
              weight: BOLD
         no_next_slide: false
       - type: text
@@ -1161,7 +1449,7 @@ slides:
           dir: LEFT
         
       - type: text
-        text: " AI-Augmented Organizations:"
+        text: " 7.2 AI-Augmented Organizations:"
         next_to:
           target: "{{ last }}"
           dir: 2*DOWN
@@ -1169,7 +1457,7 @@ slides:
           target: "{{ last }}"
           dir: LEFT
         weights:
-           - text: "AI-Augmented Organizations"
+           - text: "7.2 AI-Augmented Organizations"
              weight: BOLD
         no_next_slide: false
       - type: text
@@ -1190,7 +1478,7 @@ slides:
           target: "{{ last }}"
           dir: LEFT
       - type: text 
-        text: " Networked Organizations:"
+        text: " 7.3 Networked Organizations:"
         next_to:
           target: "{{ last }}"
           dir: 2*DOWN
@@ -1198,7 +1486,7 @@ slides:
           target: "{{ last }}"
           dir: LEFT
         weights:
-           - text: "Networked Organizations"
+           - text: "7.3 Networked Organizations"
              weight: BOLD
         no_next_slide: false     
       - type: text
@@ -1209,12 +1497,472 @@ slides:
         align_to:
           target: "{{ last }}"
           dir: LEFT
-          
+#          
+  - title: Remote-First Organizations
+    number: "7.1"
+    content:
+      - type: text
+        text: Designed to prioritize remote work, with flexible policies for global teams
+        next_to: 
+          target: "{{ title }}"
+          dir: DOWN*4
+        align_to: 
+          target: "{{ title }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " Characteristics :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Decentralized work environments "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Heavy reliance on collaboration tools "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Focus on outcomes rather than office hours"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣ Asynchronous workflows for global teams"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: image
+        image: Screenshot 2024-12-09 at 13-53-54 Remote-First Company Everything You Need to Know.png
+        scale: 1.1 
+        shift: RIGHT*3 + DOWN
+        no_next_slide: false
+      - type: image
+        image: Screenshot 2024-12-09 at 15-00-44 Work From Anywhere Jobs The Companies Allowing Work From Anywhere - Remote Work.png
+        scale: 0.9 
+        shift:  LEFT * 4 + 2*DOWN
+      - type: reset    
+      - type: text
+        text: " Advantages :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Advantages"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Access to a global talent pool "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Increased work-life balance for employees "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Cost savings on physical office spaces"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: " Challenges :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Challenges"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣  Maintaining engagement and collaboration "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣  Cybersecurity risks in decentralized systems "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣  Isolation and reduced team cohesion"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣  Difficulty in monitoring performance"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+  - title: AI-Augmented Organizations 
+    number: "7.2"
+    content:
+      - type: text
+        text: Structures that integrate AI to enhance decision-making, operations, and innovation
+        next_to: 
+          target: "{{ title }}"
+          dir: DOWN*4
+        align_to: 
+          target: "{{ title }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " Characteristics :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ AI-driven analytics for real-time insights "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Automation of repetitive tasks to boost efficiency "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ AI-powered communication tools for seamless interactions"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣ Adaptive AI systems for continuous learning"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: image
+        image: Screenshot 2024-12-09 at 19-19-48 Unleashing the Power of Generative AI Transforming ADDIE.png
+        scale: 0.9 
+        shift: UP*0.5 + RIGHT*4.3
+        no_next_slide: false
+      - type: image
+        image: Screenshot 2024-12-09 at 19-20-54 Cogent Blog Adapting To The AI Revolution Understanding The Integration Of Artificial Intelligence In The Workforce.png
+        scale: 0.9 
+        shift:  RIGHT*4.3 +  1.9*DOWN
+      - type: reset    
+      - type: text
+        text: " Advantages :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Advantages"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Access to a global talent pool "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Increased work-life balance for employees "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Cost savings on physical office spaces"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " Challenges :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Challenges"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣  Maintaining engagement and collaboration "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣  Cybersecurity risks in decentralized systems "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣  Isolation and reduced team cohesion"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣  Difficulty in monitoring performance"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: image
+        image: Screenshot 2024-12-09 at 19-21-03 Cogent Blog Adapting To The AI Revolution Understanding The Integration Of Artificial Intelligence In The Workforce.png 
+        scale: 1
+        shift: RIGHT*3.5 + UP*0.8
+  - title: Networked Organizations
+    number: "7.3"
+    content:  
+      - type: text
+        text: Flexible, interconnected teams replacing rigid hierarchies
+        next_to: 
+          target: "{{ title }}"
+          dir: DOWN*4
+        align_to: 
+          target: "{{ title }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text   
+        text: " Characteristics :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Characteristics"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Cross-functional collaboration "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Decentralized decision-making "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Dynamic team structures for agility"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣ Fluid, project-based roles"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: image  
+        image: Screenshot 2024-12-09 at 22-05-32 1 new message.png
+        scale: 1.1
+        shift: DOWN*0.3 + RIGHT*4
+      - type: reset  
+      - type: text
+        text: " Advantages :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Advantages"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Faster response to changes and challenges"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣ Improved innovation through diverse perspectives"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣ Breaks down silos for better teamwork"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: " Challenges :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Challenges"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ Balancing autonomy with organizational alignment"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣ Coordination complexity in large networks"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣ Resource allocation issues due to fluid roles"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: image
+        image: Screenshot 2024-12-10 at 00-01-26 Four Network Security Challenges for Organizations with a Remote Workforce by Colleen Martin Medium.png
+        scale: 0.8
+        shift: RIGHT*4 + DOWN*0.5
   - title: Challenges in Adapting to Technological Changes
     number: "8.0"
     content:
       - type: text 
-        text: " Resistance to Change:"
+        text: " 8.1 Resistance to Change:"
         next_to:
           target: "{{ title }}"
           dir: 4*DOWN
@@ -1222,7 +1970,7 @@ slides:
           target: "{{ last }}"
           dir: LEFT
         weights:
-           - text: "Resistance to Change:"
+           - text: "8.1 Resistance to Change:"
              weight: BOLD
         no_next_slide: false
       - type: text
@@ -1235,7 +1983,7 @@ slides:
           dir: LEFT
         
       - type: text
-        text: " Cybersecurity :"
+        text: " 8.2 Cybersecurity :"
         next_to:
           target: "{{ last }}"
           dir: 2*DOWN
@@ -1255,7 +2003,7 @@ slides:
           target: "{{ last }}"
           dir: LEFT
       - type: text 
-        text: " Skill Gaps:"
+        text: " 8.3 Skill Gaps:"
         next_to:
           target: "{{ last }}"
           dir: 2*DOWN
@@ -1263,7 +2011,7 @@ slides:
           target: "{{ last }}"
           dir: LEFT
         weights:
-           - text: "Skill Gaps"
+           - text: "8.3 Skill Gaps"
              weight: BOLD
         no_next_slide: false     
       - type: text
@@ -1274,4 +2022,268 @@ slides:
         align_to:
           target: "{{ last }}"
           dir: LEFT
+      - type: image
+        image: Screenshot 2024-12-10 at 13-11-32 RE.png
+        scale: 0.8
+        shift: RIGHT*4.5
+  - title:  Resistance to Change
+    number: "8.1"
+    content:
+      - type: text 
+        text: " Leads to slower innovation and lagging behind competitors "
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "8.1 Resistance to Change:"
+             weight: BOLD
+        no_next_slide: false
+      - type: image
+        image: Screenshot 2024-12-10 at 13-27-36 Resistance to Change Organizational Behavior and Human Relations.png
+        scale: 1.2
+        shift: UP*0.8 + RIGHT*4.5
+      - type: text   
+        text: " Reasons ? :"
+        next_to:
+          target: "{{ title }}"
+          dir: 8*DOWN
+        align_to: 
+          target: "{{ title }}"
+          dir: LEFT
+        weights:
+           - text: "Reasons"
+             weight: BOLD
+        no_next_slide: false     
+      - type: text
+        text: " ‣ The lack of understanding of the benefits creates uncertainty "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ The mindset of “if it isn’t broken, why fix it?”  "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Concerns about job replacement by automation"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false  
+      - type: text
+        text: " ‣ Poorly communicated reasons and benefits for the change lead to misunderstandings"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: image
+        image: Screenshot 2024-12-10 at 14-21-20 RE.png
+        scale: 1.2
+        shift: DOWN*2
+  - title:  Cybersecurity
+    number: "8.2"
+    content:
+      - type: text 
+        text: " Risks :"
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Risks"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Increased Attack Surface; new digital tools and systems"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Data Breaches; leads to financial loss and legal penalties"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false
+      - type: text
+        text: " ‣ Insufficient Security Measures; outdated security systems"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Third-Party Risks; give attackers full control of the organization’s systems and data"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text 
+        text: " Solutions ? :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:
+           - text: "Solutions"
+             weight: BOLD
+        no_next_slide: false
+      - type: text
+        text: " ‣ Employee Training; on recognizing suspicious emails "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Data Backup and Recovery Plans"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Regularly evaluate systems for vulnerabilities and threats"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: image
+        image: Screenshot 2024-12-10 at 15-42-08 What is cybersecurity McKinsey.png
+        scale: 0.8
+        shift: DOWN*1.3 + RIGHT*4.6
+        no_next_slide: false 
+      - type: image
+        image: Screenshot 2024-12-10 at 14-34-04 Overview of Organizational Cybersecurity - Download Whitepaper (PDF) » OnlineWhitePapers.com.png
+        scale: 0.7
+        shift: UP*0.9 + RIGHT*4.6
+
+  - title:  Skill gaps
+    number: "8.3"
+    content:
+      - type: text 
+        text: " Reasons :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:  
+           - text: "Rreasons"
+             weight: BOLD
+          
+
+      - type: text
+        text: " ‣ Rapid Technological Advancements"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Insufficient Training Programs"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Resistance to Learning (8.1)"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        
+      - type: text 
+        text: " Impacts :"
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:  
+           - text: "Impacts"
+             weight: BOLD
+      - type: text
+        text: " ‣ Increased Reliance on External Expertise"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Higher Turnover Rates"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Lower Employee Morale"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: image
+        image: Screenshot 2024-12-10 at 16-34-46 How to Identify & Close Knowledge and Skills Gap at Work.png
+        scale: 0.7
+        shift: RIGHT*4 + UP*1.3
+        no_next_slide: false 
+      - type: image
+        image: Screenshot 2024-12-10 at 16-35-22 How to Identify a Skills Gap in the Workplace Tips and Best Practices.png
+        scale: 0.7
+        shift: RIGHT*4 + DOWN*1.8
 
