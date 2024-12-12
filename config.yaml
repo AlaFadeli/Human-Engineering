@@ -2208,7 +2208,7 @@ slides:
           target: "{{ last }}"
           dir: LEFT
         weights:  
-           - text: "Rreasons"
+           - text: "Reasons"
              weight: BOLD
           
 
@@ -2278,12 +2278,86 @@ slides:
           dir: LEFT
         no_next_slide: false 
       - type: image
-        image: Screenshot 2024-12-10 at 16-34-46 How to Identify & Close Knowledge and Skills Gap at Work.png
-        scale: 0.7
-        shift: RIGHT*4 + UP*1.3
+        image: Screenshot 2024-12-12 at 19-24-06 What is the best way to identify skill gaps in your workforce.png
+        scale: 0.9
+        shift: RIGHT*4 + DOWN*1.5
         no_next_slide: false 
       - type: image
-        image: Screenshot 2024-12-10 at 16-35-22 How to Identify a Skills Gap in the Workplace Tips and Best Practices.png
-        scale: 0.7
-        shift: RIGHT*4 + DOWN*1.8
+        image: Screenshot 2024-12-12 at 19-28-22 What is a skills gap Resco.net.png
+        scale: 0.9
+        shift: RIGHT*4 + UP*1.3
+ 
+  - title:  Conclusion
+    number: "9.0"
+    content:
+      - type: text
+        text: Takeaways 
+        next_to:
+          target: "{{ title }}"
+          dir: 4*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:  
+           - text: "Takeaways"
+             weight: BOLD
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Technological advancements have reshaped organizational structures"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Organizations that embrace change will thrive in the future"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Success lies in adaptability, continuous learning, and innovation"
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+      - type: text
+        text: Future Outlook
+        next_to:
+          target: "{{ last }}"
+          dir: 2*DOWN
+        align_to: 
+          target: "{{ last }}"
+          dir: LEFT
+        weights:  
+           - text: "Future Outlook"
+             weight: BOLD
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Emerging trends like AI and collaborative ecosystems will shape organizations "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+        no_next_slide: false 
+      - type: text
+        text: " ‣ Continuous evolution ensures long-term success "
+        next_to:
+          target: "{{ last }}"
+          dir: DOWN
+        align_to:
+          target: "{{ last }}"
+          dir: LEFT
+
+
+
 
